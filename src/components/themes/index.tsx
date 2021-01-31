@@ -1,6 +1,6 @@
-import { DefaultTheme } from "styled-components/native";
+import { DefaultTheme } from 'styled-components/native';
 
-declare module "styled-components" {
+declare module 'styled-components' {
     export interface DefaultTheme {
         primaryColor: string;
         secondaryColor: string;
@@ -10,17 +10,17 @@ declare module "styled-components" {
 }
 
 const lightTheme: DefaultTheme = {
-    primaryColor: "#f45511",
+    primaryColor: '#f45511',
     secondaryColor: '#251069',
-    backgroundColor: "#fff",
-    textColor: "#256913",
+    backgroundColor: '#2710ad',
+    textColor: '#256913',
 };
 
 const darkTheme: DefaultTheme = {
-    primaryColor: "#f45511",
+    primaryColor: '#f45511',
     secondaryColor: '#251069',
-    backgroundColor: "#fff",
-    textColor: "#256913",
+    backgroundColor: '#2710ad',
+    textColor: '#256913',
 };
 
 export const theme = lightTheme

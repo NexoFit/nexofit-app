@@ -1,12 +1,15 @@
 import * as React from 'react';
 import { Text } from 'react-native';
-import Atom from '@atoms/Atom';
+import Input from '@atoms/Input';
+import Button from '@atoms/Button';
 
 const Home = () => {
     return (
-        <Atom>
+        <>
             <Text style={{color: 'black' }}>NexoFit</Text>
-        </Atom>
+            <Input />
+            <Button title={'test'} color={'primary'} />
+        </>
     );
 }
 
